@@ -5,5 +5,5 @@ now=`date`
 echo $now
 
 ## "Nrows of guessinggame.sh" 
-cc=`wc -l https://github.com/AlexandraTr/ProjectUnix/small.sh`
+cc=`wc -l https://github.com/AlexandraTr/ProjectUnix/blob/master/guessinggame`
 echo $cc

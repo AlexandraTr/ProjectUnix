@@ -1,4 +1,4 @@
-echo "Project Title: Project Unix" > README.md
+echo "Project Unix" > README.md
 
 now=`date`
 echo "Date and Time created" >> README.md

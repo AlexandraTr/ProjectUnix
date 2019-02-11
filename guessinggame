@@ -1,3 +1,14 @@
 
 # !/usr/bin/env bash
 # File: guessinggame.sh
+
+
+path=`pwd`
+cd $path
+
+echo "How many files are in the current directory $path?"
+echo "Make a guess:"
+read response
+echo "You entered: $response"
+
+

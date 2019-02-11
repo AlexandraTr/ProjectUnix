@@ -1,4 +1,4 @@
-# !/usr/bin/env bash
+ !/usr/bin/env bash
 # File: guessinggame.sh
 
 path=`pwd`
@@ -25,14 +25,14 @@ elif [[ $real -lt $response ]]
 then
   echo "Your guess is higher than the real number of files. Try again!"
   status=1
-elif [[ $real -gt $response ]]
-then
-  echo "Your guess is lower than the real number of files. Try again!"
-  status=1
-else
+elif ! [[ $response =~ ^[0-9]+$ ]] 
+then  
   echo "Your guess is not a number. Try again!"
   status=1
-  
+else
+  echo "Your guess is lower than the real number of files. Try again!"
+  status=1
+
 fi
 
 done

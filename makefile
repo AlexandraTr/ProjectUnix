@@ -1,4 +1,4 @@
-echo "Project Title: Project Unix" > README.md
+echo "Project Title: Project Unix" > https://github.com/AlexandraTr/ProjectUnix/blob/master/README.md
 
 now=`date`
 echo "Date and Time created" 

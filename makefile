@@ -1,10 +1,10 @@
-echo "Project Title: Project Unix" > https://github.com/AlexandraTr/ProjectUnix/blob/master/README.md
+echo "Project Title: Project Unix" > README.md
 
 now=`date`
-echo "Date and Time created" 
-echo $now
+echo "Date and Time created" >> README.md
+echo $now >> README.md
 
-echo "Nrows of guessinggame.sh" 
+echo "Nrows of guessinggame.sh" >> README.md
 cc=`wc -l ./small.sh`
-echo $cc
+echo $cc >> README.md
 

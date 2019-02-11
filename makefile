@@ -1,3 +1,10 @@
-TITLE: Project Unix
-Date and Time created: 2/11/2019 17:44
-Nrows of guessinggame.sh:
+echo "Project Title: Project Unix" > README.md
+
+now=`date`
+echo "Date and Time created" 
+echo $now
+
+echo "Nrows of guessinggame.sh" 
+cc=`wc -l ./small.sh`
+echo $cc
+

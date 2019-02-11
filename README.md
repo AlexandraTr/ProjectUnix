@@ -1,7 +1,4 @@
-# ProjectUnix
-
-
-#Project Title: Project Unix
+# Title: Project Unix
 
 now=`date`
 ## "Date and Time created" 

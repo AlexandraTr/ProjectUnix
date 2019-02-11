@@ -25,6 +25,10 @@ elif [[ $real -lt $response ]]
 then
   echo "Your guess is higher than the real number of files. Try again!"
   status=1
+elif if [[ $response =~ ^[0-9]+$ ]] 
+then  
+  echo "Your guess is not a number. Try again!"
+  status=1
 else
   echo "Your guess is lower than the real number of files. Try again!"
   status=1

@@ -19,7 +19,7 @@ echo "You entered: $response"
 
 if [[ $real -eq $response ]]
 then
-  echo "Congratulations! You found the correct number!"
+  echo "Congratulations! You found the correct number of files!"
   status=0
 elif [[ $real -lt $response ]]
 then

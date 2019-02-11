@@ -26,6 +26,7 @@ then
   echo "Your guess is higher than the real number of files. Try again!"
   status=1
 elif [[ $real -gt $response ]]
+then
   echo "Your guess is lower than the real number of files. Try again!"
   status=1
 else

@@ -2,7 +2,7 @@
 # File: guessinggame.sh
 
 path=`pwd`
-cd $path
+
 real=$(ls -1 | wc -l)
 
 echo "How many files are in the current directory $path?"

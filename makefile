@@ -1,15 +1,10 @@
-
-# "Project Unix" 
+touch README.md
+echo "Project Unix" > README.md
 
 now=`date`
-# "Date and Time created" 
-```
-Mon Feb 11 15:55:50 CST 2019
-```
+echo "Date and Time created" >> README.md
+echo $now >> README.md
 
-# "Nrows of guessinggame.sh" 
-```
-32
-```
-
-nano README.md
+echo "Nrows of guessinggame.sh" >> README.md
+cc=`wc -l ./small.sh`
+echo $cc >> README.md

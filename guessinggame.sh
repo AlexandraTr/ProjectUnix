@@ -16,22 +16,17 @@ echo "Make a guess:"
 read response
 echo "You entered: $response"
 
-
 if ! [[ $response =~ ^[0-9]+$ ]] 
 then  
   echo "Your guess is not a number. Try again!"
-  
 elif [[ $real -lt $response ]]
 then
-  echo "Your guess is higher than the real number of files. Try again!"
-  
+  echo "Your guess is higher than the real number of files. Try again!" 
 elif [[ $real -eq $response ]]
 then
   echo "Congratulations! You found the correct number of files!"
   status=0
 else
-  echo "Your guess is lower than the real number of files. Try again!"
-  
+  echo "Your guess is lower than the real number of files. Try again!" 
 fi
-
 done

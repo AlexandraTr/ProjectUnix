@@ -6,5 +6,5 @@ echo "Date and Time created" >> README.md
 echo $now >> README.md
 
 echo "Nrows of guessinggame.sh" >> README.md
-cc=`wc -l ./small.sh`
+cc=`wc -l ./guessinggame.sh`
 echo $cc >> README.md

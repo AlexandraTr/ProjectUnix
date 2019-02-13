@@ -5,7 +5,7 @@ function guessing {
 
 path=`pwd`
 
-real=$(ls -aR | wc -l)
+real=$(ls -l | wc -l)
 
 echo "How many files are in the current directory $path?"
 

@@ -1,5 +1,7 @@
- !/usr/bin/env bash
+#!/usr/bin/env bash
 # File: guessinggame.sh
+
+function guessing {
 
 path=`pwd`
 
@@ -30,3 +32,5 @@ else
   echo "Your guess is lower than the real number of files. Try again!" 
 fi
 done
+
+}

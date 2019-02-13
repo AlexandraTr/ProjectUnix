@@ -5,7 +5,7 @@ README.md:  guessinggame.sh
     ``` >> README.md
   date >> README.md
    ``` >> README.md
-  echo "### Nrows of guessinggame.sh" >> README.md
+  echo "### Number of rows of **guessinggame.sh**" >> README.md
   ``` >> README.md
   wc -l guessinggame.sh >> README.md
   ``` >> README.md
